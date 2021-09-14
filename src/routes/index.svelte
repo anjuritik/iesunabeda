@@ -20,7 +20,7 @@ const entityMeta = {
 const seoProps = {
 	entityMeta,
 	breadcrumbs,
-	title: 'Misiki - Start your ecommerce in 60seconds',
+	title: 'IESunabeda - Engineers Association',
 	metadescription:
 		'Ecommerce platform for micro business to big shots. We will give personalized help for your business go online instantly. We will build your own online store with all personalized help',
 	featuredImage:
