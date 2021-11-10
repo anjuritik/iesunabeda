@@ -157,8 +157,8 @@ function closeSidebar() {
 		<div class="absolute z-40 inset-0 h-screen bg-white animate-slide">
 			<div class="px-6 py-14 flex flex-col space-y-5">
 				<a
-					href="/pricing"
-					title="Pricing"
+					href="/about"
+					title="About"
 					class="mr-5 flex items-center space-x-2 text-gray-800 active:text-primary-700"
 					on:click="{closeSidebar}">
 					<svg
@@ -173,7 +173,7 @@ function closeSidebar() {
 							stroke-width="2"
 							d="M9 8h6m-5 0a3 3 0 110 6H9l3 3m-3-6h6m6 1a9 9 0 11-18 0 9 9 0 0118 0z"></path>
 					</svg>
-					<h6 class="flex-1">Pricing</h6>
+					<h6 class="flex-1">About</h6>
 				</a>
 
 				<a
