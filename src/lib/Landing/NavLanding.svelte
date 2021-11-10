@@ -94,7 +94,7 @@ function closeSidebar() {
             tracking-wide
           ">
 				<div class="hidden sm:flex items-center">
-				
+				<a href="/about">About</a>
 				</div>
 
 				<aside class="z-50 sm:hidden">
