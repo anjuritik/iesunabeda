@@ -73,7 +73,7 @@ function closeSidebar() {
 					href="/"
 					title="Link to home page"
 					rel="prefetch"
-					aria-label="Misiki"
+					aria-label="IEI Sunabeda"
 					class="
               flex
               items-center
@@ -83,6 +83,8 @@ function closeSidebar() {
             ">
 					<img src="{`/iei_Logo.jpg`}" alt="IESunabeda" class="h-24 mr-2" />
 				</a>
+				<div class=" font-sans font-bold" style="font-family: Snell Roundhand, cursive;font-size:20px;color-blue"> 
+   Institution of Engineers- Sunabeda Local Center </div>
 			</div>
 			<div
 				class="
@@ -93,19 +95,24 @@ function closeSidebar() {
             font-semibold
             tracking-wide
           ">
-				<div class="   items-center bg-green-100  px-6 py-2 rounded border  border-green-300">
-				<a href="/about">Home</a>
+		  <div class=" items-center   bg-blue-100  px-6 py-2 rounded border  border-blue-300">
+				<a href="/index">Home</a>
 				</div>
-				<div class="hidden sm:flex items-center ml-2" >
-				<a href="/about">Membership</a>
+			
+				<div class=" items-center bg-green-100  px-6 py-2 rounded border  border-green-300">
+				<a href="/about">Contact Us</a>
 				</div>
-				<div class="hidden sm:flex items-center ml-2" >
+<div class=" items-center bg-red-100  px-6 py-2 rounded border  border-red-300">
+				<a href="/about">Members</a>
+				</div>
+				
+<div class=" items-center bg-yellow-100  px-6 py-2 rounded border   border-yellow-300">
 				<a href="/about">Academics</a>
 				</div>
-<div class="hidden sm:flex items-center ml-2" >
-				<a href="/about">Activities</a>
-				</div>
 
+<div class=" items-center  bg-purple-100 px-6 py-2 rounded border  border-purple-300">
+				<a href="/about">Academics</a>
+				</div>
 
 				<aside class="z-50 sm:hidden">
 					<div
