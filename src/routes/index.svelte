@@ -10,6 +10,10 @@ const breadcrumbs = [
 		name: 'Home',
 		slug: '/',
 	},
+	{
+		name: 'Members',
+		slug: '/',
+	},
 ]
 const entityMeta = {
 	url: `${WWW_URL}/`,

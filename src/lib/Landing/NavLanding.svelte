@@ -81,7 +81,7 @@ function closeSidebar() {
               font-bold
               underline
             ">
-					<img src="{`${CDN_URL}/logo.png`}" alt="Misiki" class="h-8 mr-2" />
+					<img src="{`/iei_Logo.jpg`}" alt="IESunabeda" class="h-24 mr-2" />
 				</a>
 			</div>
 			<div
@@ -93,9 +93,19 @@ function closeSidebar() {
             font-semibold
             tracking-wide
           ">
-				<div class="hidden sm:flex items-center">
-				<a href="/about">About</a>
+				<div class="   items-center bg-green-100  px-6 py-2 rounded border  border-green-300">
+				<a href="/about">Home</a>
 				</div>
+				<div class="hidden sm:flex items-center ml-2" >
+				<a href="/about">Membership</a>
+				</div>
+				<div class="hidden sm:flex items-center ml-2" >
+				<a href="/about">Academics</a>
+				</div>
+<div class="hidden sm:flex items-center ml-2" >
+				<a href="/about">Activities</a>
+				</div>
+
 
 				<aside class="z-50 sm:hidden">
 					<div

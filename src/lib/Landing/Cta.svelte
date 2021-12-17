@@ -41,8 +41,8 @@ function getLoginUrl() {
         rounded-lg
       ">
 		<h2 class="text-center lg:text-left lg:w-2/5 xl:w-1/2">
-			<div class="text-2xl font-semibold">Own your own ecommerce brand</div>
-			<div class="text-xl text-gray-200 mt-3">We are here to get you started</div>
+			<div class="text-2xl font-semibold">Local Centre Sunabeda Invites you </div>
+			<div class="text-xl text-gray-200 mt-3">Join Now</div>
 		</h2>
 
 		<div
