@@ -3,13 +3,13 @@
 	max-width: 400px;
 }
 .purple {
-	background-color: #261b48;
+	background-color: #3309f0;
 }
 .deeppurple {
-	background-color: #32235e;
+	background-color: #3309f0;
 }
 .sub {
-	background-color: #0874f9;
+	background-color: #3309f0;
 }
 .connect {
 	color: #fddf00;
@@ -85,12 +85,12 @@ function handleSubmit(e) {
 	<div class="flex flex-col items-center w-full px-8 pt-10 pb-10 lg:items-start purple lg:w-1/2">
 		<div class="w-full lg:mr-24 mw-600">
 			<div class="flex items-center justify-center mb-8 lg:justify-start">
-				<img src="/icon.png" alt="logo" class="h-8 sm:h-10 mr-2" />
+				<img src="/iei_Logo.jpg" alt="logo" class="h-8 sm:h-10 mr-2" />
 
 				<div
 					class="text-2xl sm:text-3xl font-bold text-transparent
               bg-clip-text bg-gradient-to-br from-secondary-500 to-primary-500 tracking-wide">
-					MISIKI
+					IEI-SunabedaLocalCenter
 				</div>
 			</div>
 
@@ -201,7 +201,7 @@ function handleSubmit(e) {
 				<div class="text-center connect mr-2">STAY CONNECTED</div>
 
 				<div class="text-xs text-center text-white lg:text-sm lg:flex-col">
-					Get misiki news delivered straight to your inbox
+					Your valuable suggestion is precious to us
 				</div>
 			</div>
 
@@ -224,7 +224,7 @@ function handleSubmit(e) {
 						type="email"
 						name="email"
 						bind:value="{email}"
-						placeholder="you@yourmail.com"
+						placeholder="suggestion"
 						class="p-2 pl-5 text-gray-500 bg-white border rounded-lg mx-5 lg:mx-12 w-full max-w-sm" />
 				</div>
 

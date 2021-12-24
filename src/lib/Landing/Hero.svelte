@@ -30,8 +30,10 @@ let loading = false
 		<div class="pt-10 lg:pt-0 flex justify-center  lg:w-1/2 text-center items-center">
 			World Science Day for Peace and Development 2021 Theme : 'Building Climate-Ready Communities’.'
 		</div>
-	<div  style="background-image: url('/HomeSlide1.jpg');" class="object-cover mr-2 w-full h-96">
-	<div  class=" items-center text-center text-5xl  font-sans">Largest Local Center of Odisha</div>	 
+	<div  style="background-image: url('/HomeSlide1.jpg');" class="object-cover mr-2 w-full h-96 flex items-center justify-center">
+	<div  class=" text-sm items-center text-center lg:text-3xl bg-white px-12 py-8 rounded-full shadow-xl font-thin  opacity-75">
+		Welcome to IEI Local center Sunabeda . 
+	<br>The Largest Local Center of Odisha</div>	 
 		<!--<img src="{`/HomeSlide1.jpg`}" alt="IESunabeda" class=" object-cover mr-2  w-full h-96" /> -->
 		</div>
 </section>

@@ -28,7 +28,7 @@ let user
 			<NavLanding />
 		</div>
 
-		<div class="mt-14">
+		<div>
 			<slot />
 		</div>
 

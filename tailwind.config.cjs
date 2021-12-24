@@ -30,7 +30,7 @@ module.exports = {
 			},
 
 			fontFamily: {
-				sans: ['Inter'],
+				sans: ['Snell Roundhand, cursive'],
 			},
 
 			animation: {

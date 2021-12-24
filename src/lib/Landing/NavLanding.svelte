@@ -47,8 +47,6 @@
 
 <script>
 import GrnIndGradiantButton from '$lib/ui/GrnIndGradiantButton.svelte'
-import { lazyload } from './../../actions/lazyload'
-import { CDN_URL } from './../../../config'
 import { Menu } from 'svelte-hero-icons'
 
 let loading = false
@@ -68,10 +66,10 @@ function closeSidebar() {
 <nav class="w-full fixed top-0 z-50 frosted shadow">
 	<div class="container mx-auto max-w-7xl px-2 sm:px-10">
 		<div class="flex items-center justify-between py-3">
-			<div class="flex items-center w-full">
+			<div class="flex flex-wrap items-center justify-center lg:justify-start text-center w-full">
 				<a
 					href="/"
-					title="Link to home page"
+					title="Home"
 					rel="prefetch"
 					aria-label="IEI Sunabeda"
 					class="
@@ -81,38 +79,39 @@ function closeSidebar() {
               font-bold
               underline
             ">
-					<img src="{`/iei_Logo.jpg`}" alt="IESunabeda" class="h-24 mr-2" />
+					<img src="{`/icon.png`}" alt="IESunabeda" class="h-24 mr-2" />
 				</a>
-				<div class=" font-sans font-bold" style="font-family: Snell Roundhand, cursive;font-size:20px;color-blue"> 
+				<div class=" text-sm lg:text-xl   lg:block font-sans font-bold" style="color-blue"> 
    Institution of Engineers- Sunabeda Local Center </div>
 			</div>
 			<div
 				class="
-            flex
             items-center
             flex-shrink-0
             text-xs
             font-semibold
             tracking-wide
+			hidden lg:flex
           ">
 		  <div class=" items-center   bg-blue-100  px-6 py-2 rounded border  border-blue-300">
-				<a href="/index">Home</a>
+				<a href="/">Home</a>
 				</div>
 			
 				<div class=" items-center bg-green-100  px-6 py-2 rounded border  border-green-300">
-				<a href="/about">Contact Us</a>
+				<a href="/contacts">Contact Us</a>
 				</div>
 <div class=" items-center bg-red-100  px-6 py-2 rounded border  border-red-300">
-				<a href="/about">Members</a>
+				<a href="/members">Members</a>
 				</div>
 				
 <div class=" items-center bg-yellow-100  px-6 py-2 rounded border   border-yellow-300">
-				<a href="/about">Academics</a>
+				<a href="/academics">Academics</a>
 				</div>
 
 <div class=" items-center  bg-purple-100 px-6 py-2 rounded border  border-purple-300">
-				<a href="/about">Academics</a>
+				<a href="/halloffame">Hall of Fame</a>
 				</div>
+			</div>
 
 				<aside class="z-50 sm:hidden">
 					<div
@@ -166,7 +165,6 @@ function closeSidebar() {
               ></path>
             </svg>
           </button> -->
-			</div>
 		</div>
 	</div>
 
@@ -178,55 +176,9 @@ function closeSidebar() {
 					title="About"
 					class="mr-5 flex items-center space-x-2 text-gray-800 active:text-primary-700"
 					on:click="{closeSidebar}">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="h-6 w-6"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor">
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M9 8h6m-5 0a3 3 0 110 6H9l3 3m-3-6h6m6 1a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-					</svg>
 					<h6 class="flex-1">About</h6>
 				</a>
 
-				<a
-					href="{getLoginUrl()}"
-					title="Login"
-					class="mr-5 flex items-center space-x-2 text-gray-800 active:text-primary-700"
-					on:click="{closeSidebar}">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="h-6 w-6"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor">
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"
-						></path>
-					</svg>
-					<h6 class="flex-1">Login</h6>
-				</a>
-
-				<a
-					href="{getLoginUrl()}"
-					title="Get Started"
-					rel="prefetch"
-					class="mr-5 flex items-center space-x-2 text-gray-800 hover:text-primary-700"
-					on:click="{closeSidebar}">
-					<GrnIndGradiantButton
-						loadingringsize="xs"
-						loading="{loading}"
-						on:click="{() => (loading = true)}">
-						Get Started
-					</GrnIndGradiantButton>
-				</a>
 			</div>
 		</div>
 	{/if}
