@@ -8,7 +8,11 @@
   <br>
   Member-2
   <br> 
-  Member=3 </div>
+  Member=3   
+  <br>
+  <a href="/Members_list.pdf" target="_blank"><span> <u> Click For Detils </u> </span></a>
+
+</div>
  <div class=" h-80 border-red-100 border-4 font-bold from-accent-900 lg:text-3xl px-12 py-8 rounded-2xl">Local Center Kolkotta</div>
  <div class=" h-80 border-red-100 border-4 font-bold from-accent-900 lg:text-3xl px-12 py-8 rounded-2xl">E-mail</div>
 </div>      
