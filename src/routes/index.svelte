@@ -49,6 +49,6 @@ const seoProps = {
 	<div class="sm:pt-10">
 		<Cta />
 	</div>
-     test
+     
 	<!-- <div class="h-40 hidden md:block"></div> -->
 </section>
