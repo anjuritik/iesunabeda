@@ -32,9 +32,9 @@ let user
 			<slot />
 		</div>
 
-		<div>
+	<!--	<div>
 			<Footer />
-		</div>
+		</div>-->
 	</section>
 </PageTransitions>
 
