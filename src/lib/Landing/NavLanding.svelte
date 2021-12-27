@@ -91,7 +91,7 @@ function closeSidebar() {
             text-xs
             font-semibold
             tracking-wide
-			hidden lg:flex
+			 lg:flex 
           ">
 		  <div class=" items-center   bg-blue-100  px-6 py-2 rounded border  border-blue-300">
 				<a href="/">Home</a>
