@@ -30,13 +30,13 @@ function getLoginUrl() {
 }
 </script>
 
-<div class="container mx-auto max-w-7xl px-4 sm:px-10">
+<div class="container mx-auto max-w-7xl px-3 sm:px-10">
 	<div
 		class="
         lg:flex lg:items-center lg:justify-between
-        p-6
-        md:p-10
-        lg:p-12
+        p-1
+        md:p-6
+        lg:p-3
         try
         rounded-lg
       ">

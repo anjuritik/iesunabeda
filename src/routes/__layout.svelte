@@ -14,7 +14,7 @@ export async function load({ session: { user, token } }) {
 import '../global.css'
 import PageTransitions from '$lib/PageTransitions.svelte'
 import NavLanding from '$lib/Landing/NavLanding.svelte'
-import Footer from '$lib/Footer.svelte'
+import Footer from '$lib/Footeranj.svelte'
 import { getStores, navigating, page } from '$app/stores'
 import { ToastContainer, FlatToast } from 'svelte-toasts'
 import GoogleAnalytics from '$lib/components/GoogleAnalytics.svelte'
@@ -32,9 +32,9 @@ let user
 			<slot />
 		</div>
 
-	<!--	<div>
-			<Footer />
-		</div>-->
+		<div>
+			<Footer/>
+		</div>
 	</section>
 </PageTransitions>
 

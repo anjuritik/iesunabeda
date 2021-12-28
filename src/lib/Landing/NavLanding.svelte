@@ -109,7 +109,7 @@ function closeSidebar() {
 				</div>
 
 <div class=" items-center  bg-purple-100 px-6 py-2 rounded border  border-purple-300">
-				<a href="/halloffame">Hall of Fame</a>
+				<a href="/halloffame">Forms</a>
 				</div>
 			</div>
 
