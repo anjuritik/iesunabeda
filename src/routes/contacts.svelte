@@ -5,7 +5,7 @@
 
  <div class=" h-80 border-green-600 border-4 font-bold from-accent-900 lg:text-3xl px-12 py-8 rounded-2xl" >Local Address
 <br>
-  Qtr No : M-46 
+  Qtr No : M-6 
   <br>
   HAL Township
   <br> 
