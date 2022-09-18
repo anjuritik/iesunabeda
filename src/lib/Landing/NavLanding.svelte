@@ -100,13 +100,14 @@ function closeSidebar() {
 				<div class=" items-center bg-green-100  px-6 py-2 rounded border  border-green-300">
 				<a href="/contacts">Contact Us</a>
 				</div>
+				<div class=" items-center bg-yellow-100  px-6 py-2 rounded border   border-yellow-300">
+				<a href="/academics">Awards</a>
+				</div>
 <div class=" items-center bg-red-100  px-6 py-2 rounded border  border-red-300">
 				<a href="/members">Members</a>
 				</div>
 				
-<div class=" items-center bg-yellow-100  px-6 py-2 rounded border   border-yellow-300">
-				<a href="/academics">Academics</a>
-				</div>
+
 
 <div class=" items-center  bg-purple-100 px-6 py-2 rounded border  border-purple-300">
 				<a href="/halloffame">Forms</a>
